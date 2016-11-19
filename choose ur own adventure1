@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link href="style.css" rel="stylesheet"/>
+
+</head>
+
+<header>
+	<title>CYOA</title>
+	<h1 align="center">Welcome to Choose Your Own Adventure!</h1>
+</header>
+<br><br><br>
+<body>
+<script src="action"></script>
+
+<table align="center">
+
+	<tr>
+		<td>Name: </td>
+	</tr>
+	<tr>
+		<td><br><input type="text" id="userInput" value="Enter Name Here"/></td>
+	</tr>
+	<tr>
+		<td><input type="button" onclick="myFunction()" value="Submit"/></td>
+	</tr>
+	<tr>
+		<td><p id="name"></p></td>
+	</tr>
+
+
+	<tr>
+		<td><button onclick="window.location='choose ur own adventure2';">Continue</button></td>
+		<td><p id="demo"></p></td>
+	</tr>
+</table>
+
+
+</body>
+
+</html>

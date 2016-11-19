@@ -1,0 +1,68 @@
+body {
+	background-image: url("skyrim.jpg");
+	font-family: "Old English Text MT", Times, serif;
+	color: white;
+	}
+
+p {
+	font-family: "Times New Roman", Times, serif;
+	}	
+	
+h2 {
+	position: center;
+	color: white;
+}
+
+h3 {
+	position: center;
+	color: white;
+}
+
+
+#borderimg {
+	border: 10px solid transparent;
+	padding: 15px;
+	-webkit-border-image: url("border.jpg");
+	border-image: url("border.jpg") 30;
+	}
+	
+table {
+	background-image: url("wood.jpg");
+    width: 50%;
+	position: center;
+}
+
+th {
+	height: 40px;
+}
+
+th, td {
+    border-bottom: none;
+	padding: 5px;
+	text-align: center;
+}
+
+
+input[type=button], input[type=submit] {
+    background-color: light gray;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    font-family: "Times New Roman";
+    margin: 4px 2px;
+    cursor: pointer;
+	font-size: 16px;
+}
+button {
+	background-color:#808080
+	border: none;
+	color: black;
+	padding: 15px 32px
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16pxmargin: 4px 2px;
+}
+
+disabled {
+	opacity: 0.6;
+	cursor: not-allowed;}

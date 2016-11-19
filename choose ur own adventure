@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link href="style.css" rel="stylesheet"/>
+
+</head>
+
+<header>
+	<title>CYOA</title>
+	<h1 align="center">Welcome to Choose Your Own Adventure!</h1>
+</header>
+<br><br><br>
+<body>
+<script src="action"></script>
+
+
+<table align="center">
+<form name="nameinput" action="">
+  <tr>
+	<td>Name: <input type="text" name="fullname"/><br></td>
+  </tr>
+  <tr>
+	<td><input type="button" value="submit" onclick="doit()"></td>
+  </tr>
+  <tr>
+	<td><p id="demo"></p></td>
+	</tr>
+</form>
+	<tr>
+		<td><button onclick="myFunction()">Click here to continue.</button>
+		<p id="demo"></p></td>
+	</tr>
+</table>
+
+
+</body>
+
+</html>
