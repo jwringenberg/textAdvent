@@ -1,0 +1,16 @@
+<html>
+
+	<head>
+	<link href = "ChooseYourOwnAdventureCSS" rel = "stylesheet"/>
+	<script src = "ChooseYourOwnAdventureJava"></script>
+	<title>Wolfie</title>
+	</head>
+	<body>
+	<header align = "center">You have arrived in the front of the forest and see that the road splits.</header>
+	<h1 align = "center">One of the paths seems overgrown and is very dark. While the other path seems to lead up into the mountains nearby.</h1>
+	<p align = "center">Do you decide to try and head through the overgrown path.<input type = "button" value = "overgrown" onclick = "WolfLord()">
+	<br> Or do you try and head up the mountain pass.<input type = "button" value = "mountain" onclick = "HeadUpMountain()"></p>
+	<p align = "center"><img src = "http://assets.worldwildlife.org/photos/946/images/story_full_width/forests-why-matter_63516847.jpg?1345534028"></p>
+	<footer align = "center">Press this to restart.<input type = "button" value = "restart the adventure" onclick = "Restart()"></footer>
+	</body>
+</html>

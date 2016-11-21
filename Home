@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href = "txtadventcss" rel = "stylesheet"/>
+<link href = "glitchtitle" rel = "stylesheet"/>
+<script src = "txtadventjs"></script>
+<title>CYOA</TITLE>
+</head>
+
+<body align = "center">
+<div class="glitch-wrapper">
+  <div data-text="Chef's Life" class="glitch">Chef's Life</div>
+</div>
+
+<div>
+<img src = "http://www.unrealitytv.co.uk/wp-content/uploads/2015/08/ainsley-harriot.jpg" width = "1080" height = "650"><br>
+<div>
+<p align = "center" id = "intro">
+Soon you will be faced with many tasty challenges
+<br>
+Will you <b>Triumph</b>?
+<br>
+Or, will you <span id = "red">FAIL</span>!
+</p>
+
+<form align = "center">
+<input type = "button" value = "CONTINUE" onclick = "welcomePage()">
+</form>
+
+<div>
+(Turn Up Volume!)
+</div>
+
+</body>
+
+
+
+
+</html>

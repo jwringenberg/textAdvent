@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href = "txtadventcss" rel = "stylesheet"/> 
+<link href = "glitchtitle" rel = "stylesheet"/>
+<script src = "txtadventjs"></script>
+<title>Chef's Life</TITLE>
+</head>
+
+<body align = "center">
+<div class="glitch-wrapper">
+  <div data-text="Chef's Life" class="glitch">Chef's Life</div>
+</div>
+<p>You approach a highway, when all of a sudden, Ainsley appears from the fields<br>He charges you with pressure cooker, but you step aside and he dives into traffic</p>
+<p id = "escape">YOU HAVE ESCAPED!</p>
+	<div>
+	<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/06381jfSalapungan_Highway_Rice_Fields_Church_Tarlac_Cityfvf_14.JPG/640px-06381jfSalapungan_Highway_Rice_Fields_Church_Tarlac_Cityfvf_14.JPG" width = "640px" height = "480px">
+	</div>
+<form align = "center">
+	<input type = "button" value = "PLAY AGAIN!" onclick = "tryAgain()"
+</form>
+
+</body>
+
+</html>

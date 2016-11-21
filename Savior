@@ -1,0 +1,16 @@
+<html>
+
+	<head>
+	<link href = "ChooseYourOwnAdventureCSS" rel = "stylesheet"/>
+	<script src = "ChooseYourOwnAdventureJava"></script>
+	<title>Lord Knight</title>
+	</head>
+	<body>
+	<header align = "center">The knight turns out to be the leader of the knights in the area and for your bravery he offers you to choices.</header>
+	<h1 align = "center">He asks you "Adventurer would you like to be a fellow knight."</h1>
+	<p align = "center">Do you respond with yes<input type = "button" value = "LordOfKnights" onclick = "KingKnight()">
+	<br> or do you tell the knight no.<input type = "button" value = "Execution" onclick = "DeadlyKnight()"></p>
+	<p><img src = "http://vignette3.wikia.nocookie.net/assassinscreed/images/6/6b/Knight-concept-art.jpg/revision/latest?cb=20120831203058"></p>
+	<footer align = "center">Press this to restart.<input type = "button" value = "restart the adventure" onclick = "Restart()"></footer>
+	</body>
+</html>

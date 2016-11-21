@@ -1,0 +1,14 @@
+<html>
+
+	<head>
+	<link href = "ChooseYourOwnAdventureCSS" rel = "stylesheet"/>
+	<script src = "ChooseYourOwnAdventureJava"></script>
+	<title>Quitter</title>
+	</head>
+	<body>
+	<header align = "center">Hello you have quitted.</header>
+	<h1 align = "center">Please leave now and try again.</h1>
+	<p align = "center"><img src = "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRiDvjLC21WBx0ux0FRdaITSoQUnUiRhiiRswIG-6VT3FlI7g9Z"></p>
+	<footer align = "center">Press this to restart.<input type = "button" value = "restart the adventure" onclick = "Restart()"></footer>
+	</body>
+</html>

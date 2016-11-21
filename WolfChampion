@@ -1,0 +1,18 @@
+<html>
+
+	<head>
+	<link href = "ChooseYourOwnAdventureCSS" rel = "stylesheet"/>
+	<script src = "ChooseYourOwnAdventureJava"></script>
+	<title>Wolves Champion</title>
+	</head>
+	<body>
+	<header align = "center">When you grab the shining object the wolves stop moving and stare at you.</header>
+	<h1 align = "center">The wolves seperate and a large wolf with silver fur walks towards you and says something you somehow understand.</h1>
+	<br><p align = "center">"Hello adventurer you have found something we have lost long ago if you return it to us we will give you a necklace that allows you to understand animals and show that you are not to be eaten."</p>
+	<br><p align = "center">When the wolf waits for your answer you look down to see that the item you grabbed was a golden jeweled item in the shape of a bone.</p>
+	<br><p align = "center">Do you give him the bone.<input type = "button" value = "Give" onclick = "WolfSage()">
+	<br>Or do you try to keep the bone.<input type = "button" value = "Keep" onclick = "SilverStreak()"></p>
+	<p align = "center"><img src = "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQQQF485xPjUxqMbc_1Jx3SQjGnnhR6o-uE3IHot9oP26jAHTpY" height = "300px" width = "300px"></p>
+	<footer align = "center">Press this to restart.<input type = "button" value = "restart the adventure" onclick = "Restart()"></footer>
+	</body>
+</html>

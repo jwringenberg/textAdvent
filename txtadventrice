@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href = "txtadventcss" rel = "stylesheet"/> 
+<link href = "glitchtitle" rel = "stylesheet"/>
+<script src = "txtadventjs"></script>
+<title>Chef's Life</TITLE>
+</head>
+
+<body align = "center">
+<div class="glitch-wrapper">
+  <div data-text="Chef's Life" class="glitch">Chef's Life</div>
+</div>
+<p>You are deep within the rice fields when you approach a cliff<br>Do you go <b>down<b> it, or go even <b>deeper</b> in the rice fields?</p>
+	<div align = "center">
+	<img src = "http://www.lovethesepics.com/wp-content/uploads/2011/02/Mountain-of-Rice.jpg" width = "640" height = "480">
+	<img src = "https://s-media-cache-ak0.pinimg.com/originals/fd/65/1f/fd651f82bb07f5414e04f75b43ff8f4e.jpg" width = "640" height = "480">
+	</div>
+	<form align = "center">
+	<input type = "button" value = "DOWN" onclick = "down()">
+	<input type = "button" value = "DEEPER" onclick = "deeper()">
+	</form>
+
+</body>
+
+</html>

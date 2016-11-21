@@ -1,0 +1,58 @@
+
+function gameEntry()
+{
+	location.href = "cheflife1";
+}
+
+function door()
+{
+	location.href = "cheflifedoor";
+}
+
+function window123()
+{
+	location.href = "cheflifewindow";
+}
+function knife()
+{
+	location.href = "txtadventknife";
+}
+function rollingpin()
+{
+	location.href = "txtadventrollingpin";
+}
+function tryAgain()
+{
+	location.href = "Home";
+}
+function car()
+{
+	location.href = "txtadventcar";
+}
+function riceFields()
+{
+	location.href = "txtadventrice";
+}
+function down()
+{
+	location.href = "txtadventdown"
+}
+function deeper()
+{
+	location.href = "txtadventdeeper"
+}
+function play()
+{
+var audio = new Audio('The Best of Ainsley Harriott (Dirty Talk)');
+audio.play();
+ play.pause()
+  }
+  function welcomePage()
+  {
+	  location.href = "WelcomePage";
+  }
+  function name_()
+  {
+	  var message = document.getElementById("name_text").value;  
+	  document.getElementById("display_name").innerHTML = "Welcome, "+message;
+  }
