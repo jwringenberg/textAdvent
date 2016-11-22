@@ -1,0 +1,15 @@
+html {
+	background-image: url("http://static5.businessinsider.de/image/57ee699edd0895af428b4b48/100-under-the-radar-places-everyone-should-visit-in-the-world.jpg");
+	background-size: cover;
+}
+p {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 900px;
+	background-color: #f9f339;
+	padding: 10px 20px;
+}
+#conclusion {
+	font-size: 25px;
+}

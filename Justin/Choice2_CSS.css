@@ -1,0 +1,89 @@
+html {
+	background-image: url("https://daywallpaper.files.wordpress.com/2013/08/road-3.jpg");
+	background-size: cover;
+}
+p{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1200px;
+	background-color: #f9f339;
+	padding-top: 6px;
+	padding-bottom: 10px;
+	z-index: 1
+}
+.button{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	left: 0%;
+	z-index: 1;
+}
+button {
+	font-size: 20px;
+}
+.foo,
+.foo:before,
+.foo:after,
+.bar,
+.bar:before,
+.bar:after{
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: dashed 10px;
+  border-radius: 50%;
+-webkit-animation: foo 1.5s ease-in-out alternate infinite;
+  -webkit-transform: translateZ(0); 
+}
+.foo{
+   width: 200px;
+   height: 200px;
+  border-color: #004b6a;
+  -webkit-animation-delay: 1.5s;
+  
+}
+.bar{
+  width: 100px;
+   height: 100px;
+  border-color: rgba(255,255,255, 0.5);
+  -webkit-animation-delay: 2.5s;
+}
+.foo:before,
+.foo:after,
+.bar:before,
+.bar:after{
+  content:'';
+}
+.foo:before{
+  border-color: #004b6a;
+  -webkit-transform: scale(.2);
+  -webkit-animation-delay: .5s;
+}
+.foo:after{
+  border-color: rgba(255,255,255, 0.5);
+  -webkit-transform: scale(.4);
+  -webkit-animation-delay: 1s;
+}
+
+.bar:before{
+  border-color: rgba(255,255,255, 0.5);
+  -webkit-transform: scale(.2);
+  -webkit-animation-delay: 1.5s;
+}
+.bar:after{
+  border-color: #004b6a;
+  -webkit-transform: scale(.4);
+  -webkit-animation-delay: 2s;
+}
+
+@-webkit-keyframes foo{
+  to{
+    -webkit-transform: rotate(1080deg) scale(5);
+  }
+  
+}
