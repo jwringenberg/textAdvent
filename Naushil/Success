@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script src = "Page5Java"></script>
-	<link href = "Page5CSS" rel = "stylesheet"/>
+	<script src = "Page5Java.js"></script>
+	<link href = "Page5CSS.css" rel = "stylesheet"/>
 	<title>Success</title>
 </head>
 
