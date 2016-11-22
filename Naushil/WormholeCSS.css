@@ -1,0 +1,20 @@
+body, div {
+  background: deeppink;
+  padding: 5vh;
+  overflow: hidden;
+}
+div {
+  border-radius: 50%;
+  animation: twister 10s linear infinite;
+}
+@keyframes twister {
+  100% {
+    transform: rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: center;

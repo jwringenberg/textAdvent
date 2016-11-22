@@ -1,0 +1,22 @@
+h1 {
+	text-align: center;
+}
+p {
+	text-align: center;
+}
+html {
+    background-image: url("https://i.makeagif.com/media/5-29-2015/_GKdzx.gif");
+	background-size: cover;
+}
+#EnterButtonLeft2L{
+background-color: black;
+color: brown;
+border: white;
+text-align: center;
+}
+#EnterButtonRight2L{
+background-color: black;
+color: white;
+border: white;
+text-align: center;
+}
