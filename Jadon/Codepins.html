@@ -1,0 +1,975 @@
+<html>
+<head>
+<script src = "ChooseYourOwnAdventureJava.js"></script>
+<style>
+html,
+body {
+  height: 100%;
+  background: #323232;
+  -webkit-perspective: 500px;
+          perspective: 500px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  overflow: hidden;
+}
+
+.dna {
+  -webkit-perspective: 10000px;
+          perspective: 10000px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  position: absolute;
+  top: calc(50% - 0px);
+  left: calc(50% - 0px);
+  -webkit-transform: rotateZ(90deg) rotateX(45deg) translateZ(100px) rotateY(0);
+          transform: rotateZ(90deg) rotateX(45deg) translateZ(100px) rotateY(0);
+  -webkit-animation: ani 5s linear infinite;
+          animation: ani 5s linear infinite;
+}
+@-webkit-keyframes ani {
+  100% {
+    -webkit-transform: rotateZ(90deg) rotateX(45deg) translateZ(100px) rotateY(360deg);
+            transform: rotateZ(90deg) rotateX(45deg) translateZ(100px) rotateY(360deg);
+  }
+}
+@keyframes ani {
+  100% {
+    -webkit-transform: rotateZ(90deg) rotateX(45deg) translateZ(100px) rotateY(360deg);
+            transform: rotateZ(90deg) rotateX(45deg) translateZ(100px) rotateY(360deg);
+  }
+}
+.dna .spiral {
+  -webkit-perspective: 10000px;
+          perspective: 10000px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  position: absolute;
+  top: calc(50% - 0px);
+  left: calc(50% - 0px);
+}
+.dna .spiral:nth-child(1) .face {
+  background: #9696c8 !important;
+}
+.dna .spiral:nth-child(2) {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.dna .spiral:nth-child(2) .face {
+  background: #c89696 !important;
+}
+.dna .spiral .cilinder {
+  position: absolute;
+  top: calc(50% - 0px);
+  left: calc(50% - 0px);
+  -webkit-perspective: 10000px;
+          perspective: 10000px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+.dna .spiral .cilinder:nth-child(1) {
+  -webkit-transform: translateY(-140px) rotateY(36deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(-140px) rotateY(36deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(2) {
+  -webkit-transform: translateY(-130px) rotateY(72deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(-130px) rotateY(72deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(3) {
+  -webkit-transform: translateY(-120px) rotateY(108deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(-120px) rotateY(108deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(4) {
+  -webkit-transform: translateY(-110px) rotateY(144deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(-110px) rotateY(144deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(5) {
+  -webkit-transform: translateY(-100px) rotateY(180deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(-100px) rotateY(180deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(6) {
+  -webkit-transform: translateY(-90px) rotateY(216deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(-90px) rotateY(216deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(7) {
+  -webkit-transform: translateY(-80px) rotateY(252deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(-80px) rotateY(252deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(8) {
+  -webkit-transform: translateY(-70px) rotateY(288deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(-70px) rotateY(288deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(9) {
+  -webkit-transform: translateY(-60px) rotateY(324deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(-60px) rotateY(324deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(10) {
+  -webkit-transform: translateY(-50px) rotateY(360deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(-50px) rotateY(360deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(11) {
+  -webkit-transform: translateY(-40px) rotateY(396deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(-40px) rotateY(396deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(12) {
+  -webkit-transform: translateY(-30px) rotateY(432deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(-30px) rotateY(432deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(13) {
+  -webkit-transform: translateY(-20px) rotateY(468deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(-20px) rotateY(468deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(14) {
+  -webkit-transform: translateY(-10px) rotateY(504deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(-10px) rotateY(504deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(15) {
+  -webkit-transform: translateY(0px) rotateY(540deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(0px) rotateY(540deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(16) {
+  -webkit-transform: translateY(10px) rotateY(576deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(10px) rotateY(576deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(17) {
+  -webkit-transform: translateY(20px) rotateY(612deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(20px) rotateY(612deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(18) {
+  -webkit-transform: translateY(30px) rotateY(648deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(30px) rotateY(648deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(19) {
+  -webkit-transform: translateY(40px) rotateY(684deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(40px) rotateY(684deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(20) {
+  -webkit-transform: translateY(50px) rotateY(720deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(50px) rotateY(720deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(21) {
+  -webkit-transform: translateY(60px) rotateY(756deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(60px) rotateY(756deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(22) {
+  -webkit-transform: translateY(70px) rotateY(792deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(70px) rotateY(792deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(23) {
+  -webkit-transform: translateY(80px) rotateY(828deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(80px) rotateY(828deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(24) {
+  -webkit-transform: translateY(90px) rotateY(864deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(90px) rotateY(864deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(25) {
+  -webkit-transform: translateY(100px) rotateY(900deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(100px) rotateY(900deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(26) {
+  -webkit-transform: translateY(110px) rotateY(936deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(110px) rotateY(936deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(27) {
+  -webkit-transform: translateY(120px) rotateY(972deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(120px) rotateY(972deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(28) {
+  -webkit-transform: translateY(130px) rotateY(1008deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(130px) rotateY(1008deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(29) {
+  -webkit-transform: translateY(140px) rotateY(1044deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(140px) rotateY(1044deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder:nth-child(30) {
+  -webkit-transform: translateY(150px) rotateY(1080deg) translateZ(70px) rotateZ(-77deg);
+          transform: translateY(150px) rotateY(1080deg) translateZ(70px) rotateZ(-77deg);
+}
+.dna .spiral .cilinder .face {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 10px);
+  width: 5px;
+  height: 40px;
+  background: white;
+  opacity: 1;
+  border: 1px solid black;
+  -webkit-backface-visibility: visible;
+          backface-visibility: visible;
+}
+.dna .spiral .cilinder .face:nth-child(1) {
+  -webkit-transform: rotateY(45deg) translateZ(7px);
+          transform: rotateY(45deg) translateZ(7px);
+}
+.dna .spiral .cilinder .face:nth-child(2) {
+  -webkit-transform: rotateY(90deg) translateZ(7px);
+          transform: rotateY(90deg) translateZ(7px);
+}
+.dna .spiral .cilinder .face:nth-child(3) {
+  -webkit-transform: rotateY(135deg) translateZ(7px);
+          transform: rotateY(135deg) translateZ(7px);
+}
+.dna .spiral .cilinder .face:nth-child(4) {
+  -webkit-transform: rotateY(180deg) translateZ(7px);
+          transform: rotateY(180deg) translateZ(7px);
+}
+.dna .spiral .cilinder .face:nth-child(5) {
+  -webkit-transform: rotateY(225deg) translateZ(7px);
+          transform: rotateY(225deg) translateZ(7px);
+}
+.dna .spiral .cilinder .face:nth-child(6) {
+  -webkit-transform: rotateY(270deg) translateZ(7px);
+          transform: rotateY(270deg) translateZ(7px);
+}
+.dna .spiral .cilinder .face:nth-child(7) {
+  -webkit-transform: rotateY(315deg) translateZ(7px);
+          transform: rotateY(315deg) translateZ(7px);
+}
+.dna .spiral .cilinder .face:nth-child(8) {
+  -webkit-transform: rotateY(360deg) translateZ(7px);
+          transform: rotateY(360deg) translateZ(7px);
+}
+.dna .stick {
+  width: 120px;
+  height: 12px;
+  border: 1px solid black;
+  position: absolute;
+  top: calc(50% - 6px);
+  left: calc(50% - 65px);
+  background: -webkit-linear-gradient(0deg, red 56px, green 60px);
+  background: linear-gradient(90deg, red 56px, green 60px);
+}
+.dna .stick:nth-child(1) {
+  -webkit-transform: translateY(-200px) rotateY(72deg) rotateX(90deg);
+          transform: translateY(-200px) rotateY(72deg) rotateX(90deg);
+}
+.dna .stick:nth-child(2) {
+  -webkit-transform: translateY(-180px) rotateY(144deg) rotateX(90deg);
+          transform: translateY(-180px) rotateY(144deg) rotateX(90deg);
+  background: -webkit-linear-gradient(0deg, blue 56px, orange 60px);
+  background: linear-gradient(90deg, blue 56px, orange 60px);
+}
+.dna .stick:nth-child(3) {
+  -webkit-transform: translateY(-160px) rotateY(216deg) rotateX(90deg);
+          transform: translateY(-160px) rotateY(216deg) rotateX(90deg);
+}
+.dna .stick:nth-child(4) {
+  -webkit-transform: translateY(-140px) rotateY(288deg) rotateX(90deg);
+          transform: translateY(-140px) rotateY(288deg) rotateX(90deg);
+  background: -webkit-linear-gradient(0deg, blue 56px, orange 60px);
+  background: linear-gradient(90deg, blue 56px, orange 60px);
+}
+.dna .stick:nth-child(5) {
+  -webkit-transform: translateY(-120px) rotateY(360deg) rotateX(90deg);
+          transform: translateY(-120px) rotateY(360deg) rotateX(90deg);
+}
+.dna .stick:nth-child(6) {
+  -webkit-transform: translateY(-100px) rotateY(432deg) rotateX(90deg);
+          transform: translateY(-100px) rotateY(432deg) rotateX(90deg);
+  background: -webkit-linear-gradient(0deg, blue 56px, orange 60px);
+  background: linear-gradient(90deg, blue 56px, orange 60px);
+}
+.dna .stick:nth-child(7) {
+  -webkit-transform: translateY(-80px) rotateY(504deg) rotateX(90deg);
+          transform: translateY(-80px) rotateY(504deg) rotateX(90deg);
+}
+.dna .stick:nth-child(8) {
+  -webkit-transform: translateY(-60px) rotateY(576deg) rotateX(90deg);
+          transform: translateY(-60px) rotateY(576deg) rotateX(90deg);
+  background: -webkit-linear-gradient(0deg, blue 56px, orange 60px);
+  background: linear-gradient(90deg, blue 56px, orange 60px);
+}
+.dna .stick:nth-child(9) {
+  -webkit-transform: translateY(-40px) rotateY(648deg) rotateX(90deg);
+          transform: translateY(-40px) rotateY(648deg) rotateX(90deg);
+}
+.dna .stick:nth-child(10) {
+  -webkit-transform: translateY(-20px) rotateY(720deg) rotateX(90deg);
+          transform: translateY(-20px) rotateY(720deg) rotateX(90deg);
+  background: -webkit-linear-gradient(0deg, blue 56px, orange 60px);
+  background: linear-gradient(90deg, blue 56px, orange 60px);
+}
+.dna .stick:nth-child(11) {
+  -webkit-transform: translateY(0px) rotateY(792deg) rotateX(90deg);
+          transform: translateY(0px) rotateY(792deg) rotateX(90deg);
+}
+.dna .stick:nth-child(12) {
+  -webkit-transform: translateY(20px) rotateY(864deg) rotateX(90deg);
+          transform: translateY(20px) rotateY(864deg) rotateX(90deg);
+  background: -webkit-linear-gradient(0deg, blue 56px, orange 60px);
+  background: linear-gradient(90deg, blue 56px, orange 60px);
+}
+.dna .stick:nth-child(13) {
+  -webkit-transform: translateY(40px) rotateY(936deg) rotateX(90deg);
+          transform: translateY(40px) rotateY(936deg) rotateX(90deg);
+}
+.dna .stick:nth-child(14) {
+  -webkit-transform: translateY(60px) rotateY(1008deg) rotateX(90deg);
+          transform: translateY(60px) rotateY(1008deg) rotateX(90deg);
+  background: -webkit-linear-gradient(0deg, blue 56px, orange 60px);
+  background: linear-gradient(90deg, blue 56px, orange 60px);
+}
+.dna .stick:nth-child(15) {
+  -webkit-transform: translateY(80px) rotateY(1080deg) rotateX(90deg);
+          transform: translateY(80px) rotateY(1080deg) rotateX(90deg);
+}
+.dna .stick:nth-child(16) {
+  -webkit-transform: translateY(100px) rotateY(1152deg) rotateX(90deg);
+          transform: translateY(100px) rotateY(1152deg) rotateX(90deg);
+  background: -webkit-linear-gradient(0deg, blue 56px, orange 60px);
+  background: linear-gradient(90deg, blue 56px, orange 60px);
+}
+.dna .stick:nth-child(17) {
+  -webkit-transform: translateY(120px) rotateY(1224deg) rotateX(90deg);
+          transform: translateY(120px) rotateY(1224deg) rotateX(90deg);
+}
+.dna .stick:nth-child(18) {
+  -webkit-transform: translateY(140px) rotateY(1296deg) rotateX(90deg);
+          transform: translateY(140px) rotateY(1296deg) rotateX(90deg);
+  background: -webkit-linear-gradient(0deg, blue 56px, orange 60px);
+  background: linear-gradient(90deg, blue 56px, orange 60px);
+}
+.dna .stick:nth-child(19) {
+  -webkit-transform: translateY(160px) rotateY(1368deg) rotateX(90deg);
+          transform: translateY(160px) rotateY(1368deg) rotateX(90deg);
+}
+.dna .stick:nth-child(20) {
+  -webkit-transform: translateY(180px) rotateY(1440deg) rotateX(90deg);
+          transform: translateY(180px) rotateY(1440deg) rotateX(90deg);
+  background: -webkit-linear-gradient(0deg, blue 56px, orange 60px);
+  background: linear-gradient(90deg, blue 56px, orange 60px);
+}
+
+</style>
+</head>
+<body>
+<header align = "center">Press this to restart.<input type = "button" value = "restart the adventure" onclick = "Restart()"></header>
+<div class='dna'>
+  <div class='spiral'>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+  </div>
+  <div class='spiral'>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+    <div class='cilinder'>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+      <div class='face'></div>
+    </div>
+  </div>
+  <div class='stick'></div>
+  <div class='stick'></div>
+  <div class='stick'></div>
+  <div class='stick'></div>
+  <div class='stick'></div>
+  <div class='stick'></div>
+  <div class='stick'></div>
+  <div class='stick'></div>
+  <div class='stick'></div>
+  <div class='stick'></div>
+  <div class='stick'></div>
+  <div class='stick'></div>
+  <div class='stick'></div>
+  <div class='stick'></div>
+  <div class='stick'></div>
+  <div class='stick'></div>
+  <div class='stick'></div>
+  <div class='stick'></div>
+  <div class='stick'></div>
+  <div class='stick'></div>
+</div>>
+</body>
+</html>
