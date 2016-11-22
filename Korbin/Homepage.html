@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>INFECTED home</title>
+		<link href="Text Adventure Style 1.css" rel="stylesheet" />
+		<link href="Parallax Squares.css" rel="stylesheet" />
+		<!--JavaScript Link!-->
+		<script src="Text Adventure Username Controller.js"></script>
+		<script src="Parallax Squares.js"></script>
+		<style>
+			body {
+				background-image: url(PulsatingBackground.gif);
+				background-size: 100%;
+				background-repeat: no-repeat;
+			}
+		</style>
+		<header>
+				<p align=center><span id="technofont2">INFECTED
+				</span><br>Home<br><span id="small">Version 1.3.141592653589793</span>
+				</p>
+		</header>
+	</head>
+	<body>
+		<hr>
+		<p align=center id="technofontheading">The Synopsis</p>
+		<p>You are a computer virus. Your mission, should you choose to accept it, is to get the identity of the user you have infected the computer of. Yes, you do get to pick your user name, which can result in some funny scenarios.</p>
+		<hr>
+		<p align=center id="technofontheading">Notes</p>
+		<p>Key presses are simplified to match, in alphanumerics, what each key on the keyboard is. Not even the creator of this game has memorized every hexadecimal numerical output of the keys on a standard US keyboard.<br>
+		Websites are also simplified, usually because the website in question can have any amount of things after "(websitename).(domain)" and these can be different depending on the user being hacked.<br>
+		No, not a single playthrough of this game has real repercussions, which is decently obvious if you have read/seen the source material for the user being hacked. No, not even the "real people" or actual websites. This is made to be as realistic as possible in only four to <del>five</del> six parts and <del>nineteen</del> <del>twenty</del> <del>twenty-six</del> twenty-nine possible sections, <del>eight</del> <del>nine</del> <del>fifteen</del> seventeen of which are outcomes.
+		<br><span id="small">(A part was made unrealistic because it would normally link pretty much back to Part 1 otherwise. From Part 4 or 5. I forgot which one it was, but the point isn't that much bigger or smaller.)</span><br><br>
+		Get it?</p>
+		<hr>
+		<p align=center id="technofontheading">Your Things</p>
+		<p align=center>Username: <input type="text" id="userfield"><br>
+		<input type="button" value="Confirm Username" onclick="setusername()"><span id="buttonofready"></span></p>
+		<p align=center><input type="button" value="Press to test, just in case" onclick="fillinthings()">
+		<br>Your Virus Is Called: <span id="usernamefiller">?????</span>
+		<hr>
+		<div id="buttonofstart"></div></p>
+	</body>
+</html>

@@ -1,0 +1,20 @@
+
+
+function gameEntry(){
+		location.href = "TheJourney";
+}
+function ToTrials(){
+		location.href = "TheJourney2";
+}
+function ItsOver(){
+		location.href = "TheJourneyOver";
+}
+function: Shoot(){
+		location.href = "TheJourneyalt3";
+}
+function: Pass(){
+		location.href = "TheJourney3";
+}
+function: Dribble(){
+		location.href = "TheJourneyOver";
+}

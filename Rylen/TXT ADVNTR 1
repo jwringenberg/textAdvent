@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href = "Adventure Home.css" rel = "stylesheet"/>
+<script src = "txtAdventJS.ja"></script>
+ <title>CYOA</title>
+<style>
+ #you{
+	      color: blue;
+	     }
+
+</style>
+</head>
+<body>
+ <script>
+   var userInput = prompt("Enter a number");
+   var num = parseInt(userInput);
+ </script>
+ 
+  <script>
+     function test()
+	 {
+       var message = "TEST";
+       document.getElementById("you").innerHTML = message;
+	 }
+  </script>
+<header>
+<h1>Welcome to This Adventure!</h1>
+</header>
+<p align = "center"> 
+Soon you will be faced with many challenges.
+<br>
+Will you <b>Triumph</b>?
+<br>
+Or, WIlll you <span id = "fix1" "color: red;">FAIL</span>
+<br>
+Do you wish to enter??????
+<div>
+Hello <span id = "you"> </span>Whats up!!!!!
+</div>
+<br>
+<form>
+   <input type = "button" value = "Click Here" onclick = "test()">
+</form>
+</p>
+
+<form align = "center">
+  <input type = "button" value = "Enter the Dargon" onclick = "gameEntry()">
+</form>
+
+</body>
+
+
+</html>

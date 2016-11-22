@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href= "textAdventure.css" rel = "stylesheet"/>
+  <link href= "cat2CSS.css" rel = "stylesheet"/>
+  <script src = "TextAdventJS.js"></script>
+  <title> CYOA </title>
+</head>
+
+<body>
+
+<header align = "center">
+<h1> Welcome to This Adventure! </h1>
+</header>
+
+<p align = "center">
+Soon you will be faced with some cute, but many <span id = "dangerous"><u>dangerous</u></span>  obstacles.
+<br>
+Will you make it through?
+<br>
+Or, will a<span id = "fail"><b> Disaster </b></span> occur?
+<p>
+
+<form align = "center" id = "textbox">
+Enter your name here! <input type = "textbox" id = "text">
+</form>
+
+<form align = "center">
+  <input type = "button" value = "Enter Name" onclick = "showIn();" >
+</form>
+
+<p>
+  <span id = "textbox"> </span>
+</p>
+
+<br>
+
+
+<form align = "center">
+  <input type = "button" value = "Enter Game!" onclick = "gameEntry()">
+</form>
+
+<div class="container">
+  
+  <div class="message" >
+    <p> Hi </p>
+  </div>
+  
+  <div class="cat">
+    <span class="eyes left"></span>
+    <span class="eyes right"></span>
+    <span class="mouth"></span>
+  </div>
+  
+</div>
+
+<div class="signature">
+	<p>Made with <i class="much-heart"></i> by <a href="http://codepen.io/AngelaVelasquez">Emily Borron</a></p>
+</div>
+
+
+
+</body>
+</html>

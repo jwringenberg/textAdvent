@@ -1,0 +1,13 @@
+h1 {
+	text-align: center;
+}
+html {
+    background-image: url("http://www.vintagecoffins.com/images-coffins/BlackGothCoffinExt.jpg");
+	background-size: cover;
+}
+#RetryButton{
+background-color: black;
+color: white;
+border: white;
+text-align: center;
+}

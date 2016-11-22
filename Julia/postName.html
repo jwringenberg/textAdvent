@@ -1,0 +1,23 @@
+<html>
+
+<body>
+
+
+<script>
+function postName()
+{
+  var message = document.getElementById("box1").value; 
+  document.getElementById("Welcome").innerHTML = message; 
+}
+</script>
+
+<form>
+<input type = "textbox" value = "Please type name here" id = "box1">
+<input type = "button" value = "Submit" onclick = "postName()">
+</form>
+
+<p> <br> <br> <span id = "Welcome"></span> </p>
+</p>
+
+</body>
+</html>

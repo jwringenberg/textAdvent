@@ -1,0 +1,16 @@
+html {
+	background-image: url("http://shkatulkachudes.com/_fr/3/4982121.jpeg");
+	background-size: cover;
+}
+p {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 900px;
+	background-color: #5E9343;
+	padding-top: 6px;
+	padding-bottom: 5px;
+}
+button{
+	font-size: 15px;
+}

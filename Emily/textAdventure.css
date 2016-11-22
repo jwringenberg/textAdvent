@@ -1,0 +1,35 @@
+
+ header{
+         background-color: #bfffe5;
+		 font-size: 40px;
+       }
+	   
+       h1{
+       color: #80baa3;
+         }
+  
+         #fail{
+           color: #ff857a;
+		   font-family: serif;
+              }
+              p{
+			    font-size: 35px;
+			    color: #80baa3;
+			   }			
+               body{
+			        background-color: white;
+			       }
+                        #dangerous{
+						          color: #ff857a;
+								  font-size: 44px;
+								  font-family: serif;
+						          }		
+                                  #textbox{
+								            color: #80baa3;
+								            font-size: 35px;
+											
+								          }
+                                       	   #picture {
+										     border: 10px;
+											 border-color: #bfffe5;
+										     }						  

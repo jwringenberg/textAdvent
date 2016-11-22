@@ -1,6 +1,0 @@
-function Choice1() {
-	location.href="Choice1";
-}
-function Choice2() {
-	location.href="Choice2";
-}

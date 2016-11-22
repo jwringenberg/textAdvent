@@ -1,0 +1,43 @@
+header, footer{
+	     background-color: brown;
+		 text-align: center;
+       }
+
+h1{
+	color: black;
+  }
+  
+ 
+#f1{
+	  color: black;
+  }
+
+html{
+		 background-image: url("http://www.wondermondo.com/Images/NAmerica/LesserAntilles/Aruba/GuadirikiriCave2.jpg")
+		 }
+body{
+		 color: brown;
+		 font-size: 30px;
+		 text-align: center;
+		 }
+#flash{
+
+
+.flash{ 
+    position:fixed; 
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:#fff;
+ }
+ 
+
+
+
+
+	
+
+
+
+

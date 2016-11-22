@@ -1,0 +1,24 @@
+h1 {
+	text-align: center;
+	color: blue;
+	}
+p {
+	text-align: center;
+	color: blue;
+}
+html {
+    background-image: url("http://rs998.pbsrc.com/albums/af104/fluffy_67_1999/MovingClouds2.gif~c200");
+	background-size: cover;
+}
+#EnterButtonLeft4L{
+background-color: black;
+color: yellow;
+border: white;
+text-align: center;
+}
+#EnterButtonRight4L{
+background-color: black;
+color: white;
+border: white;
+text-align: center;
+}

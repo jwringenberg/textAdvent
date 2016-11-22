@@ -1,0 +1,64 @@
+		body {
+			background-color: #181818;
+			text-align: left;
+			background-image: url(PulsatingBackground.gif);
+			background-size: 100%;
+		}
+		
+		p {
+			font-family: Microsoft YaHei, Verdana;
+			color: #00ffff;
+		}
+		
+		ol {
+			background: #181818;
+			font-family: Microsoft YaHei, Verdana;
+			color: #ffffff;
+		}
+		
+		ul {
+			background: #181818;
+			font-family: Microsoft YaHei, Verdana;
+			color: #cfcfcf;
+		}
+		
+		a {
+			font-family: Microsoft Tai Le;
+			color: #ffff00;
+		}
+		
+		hr {
+			border-color: #00ff00;
+			width: 75%;
+		}
+
+		header, footer {
+			clear: both;
+			background-color: #010101;
+			padding: 2px;
+		}
+
+		#technofont {
+			font-family: AH Zyvarda, OCR A Extended, monospace;
+			color: #3fff00;
+		}
+		#technofont2 {
+			font-family: AH Zyvarda, OCR A Extended, monospace;
+			color: #3fff00;
+			font-size: 200%;
+		}
+		#technofontheading {
+			font-family: AH Zyvarda, OCR A Extended, monospace;
+			color: #ff008f;
+		}
+		
+		#pixellyfont1 {
+			font-family: AH Pixelated, Kozuka Gothic Pro, Microsft Tai Le, Verdana;
+		}
+		#pixellyfont2 {
+			font-family: AH Altara, Kozuka Gothic Pro, Microsft Tai Le, Verdana;
+		}
+		
+		#small {
+			font-size: 58%;
+		}

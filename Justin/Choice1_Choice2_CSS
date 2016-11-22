@@ -1,0 +1,28 @@
+html {
+	background-image: url("http://maswee.com/i/2016/10/black-smoke-wallpapers-hd.jpg");
+	background-size: cover;
+}
+#darkness {
+	color: white;
+	font-size: 35px;
+	font-family: Papyrus, fantasy;
+}
+#text {
+	color: #cecece;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5%;
+	width: 850px;
+}
+#gameOver {
+	color: #820000;
+	position: absolute;
+	font-size: 80px;
+	font-family: "Arial Black", Gadget, sans-serif ;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) };
+
+}

@@ -1,0 +1,26 @@
+
+html{
+    background-image: url("https://unexpectedvictorian.files.wordpress.com/2010/08/kitchen.jpg");
+	background-size: cover;
+   }
+header{
+	  background-color: blue;
+	  font-size: 40px;
+	  
+	  }
+body{
+	color: white;
+	}
+  #red, #dead{
+	  color: red;
+	  font-size: 35px;
+	  }
+p{
+ font-size: 35px; 
+ background-color: black;
+ }
+ #escape, #display_name{
+		color: green;
+		font-size: 35px;
+		}
+

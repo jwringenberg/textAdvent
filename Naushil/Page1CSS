@@ -1,0 +1,22 @@
+html {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/22/Animated_fire_by_nevit.gif");
+	background-size: cover;
+}
+h1 {
+	text-align: center
+}
+h2 {
+	text-align: center
+}
+#EnterButtonLeft1{
+background-color: black;
+color: white;
+border: white;
+text-align: center;
+}
+#EnterButtonRight1{
+background-color: black;
+color: white;
+border: white;
+text-align: center;
+}

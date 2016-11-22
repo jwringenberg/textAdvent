@@ -1,0 +1,24 @@
+h1 {
+	text-align: center;
+	
+}
+html {
+	background-image: url("https://d13yacurqjgara.cloudfront.net/users/940134/screenshots/2614011/bg_dribble.png");
+	background-size: cover;
+}
+#scenario {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 750px;
+	background-color: #f9f339;
+	padding-top: 6px;
+	padding-bottom: 5px;
+}
+.button{
+	margin-left: auto;
+	margin-right: auto;
+}
+button{
+	font-size: 20px;
+}
