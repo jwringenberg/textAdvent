@@ -1,38 +1,97 @@
+
 <!DOCTYPE html>
 <html>
 
 <head>
+	
   <style>
+ 
+	* {
+		padding:					0;
+		margin:						0;
+		box-sizing:				border-box;
+		}
+
+	figure {
+		width:						545px;
+		height:						500px;
+		margin:						1em auto;
+		}
+
+	.outerBevel { /* of frame */
+		box-shadow:				4px 6px 12px 0 black;
+		border-width:			5px;
+		border-style:			solid;
+		border-color:			rgb(109, 84, 58) rgb(24, 19, 13) rgb(24, 19, 13) rgb(109, 84, 58);
+		}
+
+	.flatSurface { /* of frame */
+		border:						12px solid rgb(65, 40, 16);
+		}
+
+	.innerBevel { /* of frame */
+		border-width:			5px;
+		border-style:			solid;
+		border-color:			rgb(24, 19, 13)	rgb(109, 84, 58) rgb(109, 84, 58) rgb(24, 19, 13);
+		}
+
+	.map { /* including mat and gold beveled edge of mat */
+		display:					block;
+		clear:						both;
+		height:						100%;
+		width:						100%;
+		padding:					7.5% 7.5% 10% 7.5%; /* Mat width */
+		background-color:	rgb(255,249,224); 	/* Mat color */
+		border-width:			3px;	/* Gold edge of mat */
+		border-style:			solid;
+		border-color:			rgb(207, 166, 0) rgb(207, 166, 0) rgb(145, 110, 0) rgb(145, 110, 0);
+		}
+
    header{
-    color: yellow; 
-    font-family: MedievalSharp;
-	font-size: 80px;
-	}
+          color: yellow; 
+          font-family: MedievalSharp;
+	      font-size: 80px;
+	     }
 	
 	body{
-	    background-image: url("http://www.simonoc.com/images/artwork/tpmedieval/woodplank_1a.gif");
-	     }
+	     background-image: url("http://www.simonoc.com/images/artwork/tpmedieval/woodplank_1a.gif");
+	    }
 		 
 		 ul{
             list-style-type: none;
             padding: 10px;
-            background-color: yellow;			
+            background: linear-gradient(to right, yellow , brown); 		
+           
 		 }
 		 
-		 ul, li, a{
+		  ul, li, a{
 		         text-decoration: none;
 				 font-size: 30px;
 		       }
+			   #firetest{
+			     margin: 0; 
+				  padding: 0; 
+				  border: 0;
+			    width:auto;
+				height:50px;
+				background:red;
+				z-index: 999;
+			   }
   </style>
 </head>
 
 <body>
   <header>
-     <b>6TH HOUR TEXT ADVENTURES</b>
+     <div align = "center"><b>7TH HOUR TEXT</b></div>
+	 <div align = "center"><b>ADVENTURES</b></div>
   </header>
   <br>
-   
-   <ul align = "center">
+  
+   <figure>
+    <div class="outerBevel">
+      <div class="flatSurface">
+        <div class="innerBevel">
+         <ul align = "center">
      <li><a href = "Jadon/Homepage.html">Jadon's Adventure</a></li>
 	 <li><a href = "Haziq/HomePAGE.html">Haziq's Adventure</a></li>
 	 <li><a href = "Justin/Homepage.html">Justin's Adventure</a></li>
@@ -43,9 +102,11 @@
 	 <li><a href = "Julia/Homepage.html">Julia's Adventure</a></li>
 	 <li><a href = "Emily/HomePage.html">Emily's Adventure</a></li>
 	 <li><a href = "Naushil/Home.html">Naushil's Adventure</a></li>
-	 
-   </ul>
-  
+	 </ul>
+        </div>
+      </div>
+    </div>
+  </figure>
 </body>
 
 </html>
