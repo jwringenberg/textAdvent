@@ -1,0 +1,50 @@
+<html>
+
+	<head>
+	<link href = "CYOA.css" rel = "stylesheet"/>
+	<script src = "CYOA.js"></script>
+	<title>Beginning</title>
+	</head>
+	
+	<body>
+		<header align = "center">
+			<form>
+			   <input type = "textbox" value = "Enter your name." id = "Name12">
+			   <input type = "button" value = "Submit" onclick = "PostName()">
+			</form> 
+			
+			Welcome to the game... 
+			<p id = "world" align = "center">
+				   of where you may not return.
+			</p>
+		</header>
+		
+		<h1 align = "center">
+			Are you brave enough to challenge me
+			<span id = "PlayerName?"></span>.
+			<br>
+		</h1>
+		
+		<p align = "center">
+			You wake up in a bath tub with no recollection how you got there. You are handcuffed but you see a scissor next to you.`.
+			<br> 
+			Do you choose to get the scissors or cut yourself free?.
+			<input type = "button" value = "Scissors" onclick = "window.location.href =  'Scissors.html'" >
+			<br> 
+			Or Do you scream and hope that someone will rescue you?.
+			<input type = "button" value = "Scream" onclick = "window.location.href = 'Scream.html'" >
+		</p>
+		
+		<p align = "center">
+			<img src = "http://i.huffpost.com/gen/1386272/thumbs/o-SCARY-BATHTUB-570.jpg?2" height = "500px" width = "1000px">
+		</p>
+		
+	<footer align = "center">
+	
+	Messed up?
+	
+	<input type = "button" value = "restart" onclick = "window.location.href = 'Introduction.html'">
+	
+	</footer>
+	</body>
+</html>
