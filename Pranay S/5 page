@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Spend Your Money</title>
+<link href = "scamstyle.css" rel = "stylesheet"/>
+<script src = "advent.js"></script>
+</head>
+<body id = "color">
+<p align = "center" id = "apeg">
+Now you have to fight the robbers with weapons or you have to start selling your clothes.
+</p>
+
+<p align = "center" id = "apeg">
+Now you can replay or keep shopping.
+</p>
+
+<form align = "center">
+    <input type = "button" value = "replay" onclick = "replay()">
+  </form>
+
+	
+	<form align = "center">
+	<input type="button" id="button_enter" value="Fight" onclick= "window.location.href = '6 page'">
+	
+	</form>
+	
+	<form align = "center">
+	<input type="button" id="button_enter" value="Sell" onclick= "window.location.href = '7 page'">
+	
+	</form>
+	<img src = "https://i.ytimg.com/vi/4JyZWKG7w8Q/maxresdefault.jpg" height ="450px" width = "350px">
+</body>
+</html>
