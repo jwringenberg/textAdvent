@@ -1,0 +1,52 @@
+body{
+	background-color; black;
+	background-image: url("https://imgflip.com/s/meme/Blank-Colored-Background.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+	#title{
+			font-size: 30px;
+			font-family: monospace;
+			color: white;
+			text-align: center;
+	}
+	
+	#title1{
+			font-size: 40px;
+			font-family: monospace;
+			color: red;
+			text-align: center;
+	}
+	.userIn{
+			text-align: center;
+	}
+	
+	#text1{
+			text-align: center;
+			font-size: 30px;
+			color: yellow;
+	}
+	
+	
+			
+		
+	#text2{	
+			
+			background-color: black;
+			font-size: 20px;
+			color: rgb(180,174,232);
+			text-align: center;
+			width: 300px;
+			height:30px;
+			margin: auto;
+	}
+	
+	#img{
+			text-align: center;
+	}
+	.buttonholder{
+			color: orange;
+			text-align: center;
+	}
+	
