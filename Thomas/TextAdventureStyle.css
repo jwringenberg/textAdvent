@@ -1,0 +1,183 @@
+
+body{
+		background-size: cover;
+		background-image: url("https://dncache-mauganscorp.netdna-ssl.com/thumbseg/620/620188-bigthumbnail.jpg")
+	}
+	.userIn{
+			font-size: 28px;
+			color: red;
+			text-align: center;
+	}
+	#PlayerName{
+			margin-left: 567px;
+			text-align: center;
+	}
+	#text{
+			font-size: 25px;
+			color: red;
+			text-align: center;
+	}
+	#welcome{
+			font-size: 28px;
+			color: red;
+			text-align: center;
+	}
+	#acceptchallenge{
+			background-color: black;
+			color: red;
+			border: red;
+			cursor: pointer;
+			border-radius: 8px;
+			font-size: 19px;
+	}
+	#text2{
+			font-size: 30px;
+			color: red;
+			text-align: center;
+			padding-top: 120px;
+	}
+	#text3{
+			font-size: 20px;
+			color: red;
+			text-align: left;
+			padding-top: 90px;
+	}
+	#text4{
+			font-size: 20px;
+			color: red;
+			text-align: right;
+	}
+	#text5{
+			font-size: 30px;
+			color: red;
+			text-align: center;
+			padding-top: 225px;
+	}
+	#text6{
+			font-size: 30px;
+			color: red;
+			text-align: center;
+			padding-top: 100px;
+	}
+	#yes{
+			margin-left: 610px;
+			cursor: pointer;
+			font-size: 19px;
+			border-radius: 8px;
+			width: 100px;
+			color: red;
+			background-color: black;
+	}
+	#no{
+			margin-left: 575px;
+			cursor: pointer;
+			font-size: 19px;
+			border-radius: 10px;
+			width: 150px;
+			color: lightblue;
+			background-color: darkgreen;
+	}
+	#left{
+			margin-left: 210px;
+			cursor: pointer;
+			font-size: 20px;
+			border-radius: 10px;
+			width: 75px;
+			color: orange;
+			background-color: brown; 
+	}
+	#right{
+			margin-left: 670px;
+			cursor: pointer;
+			font-size: 20px;
+			border-radius: 10px;
+			width: 80px;
+			color: black;
+			background-color: blue;
+	}
+	#keepon{
+			margin-left: 175px;
+			cursor: pointer;
+			font-size: 20px;
+			border-radius: 10px;
+			width: 100px;
+			color: red;
+			background-color: black;
+	}
+	#giveup{
+			margin-left: 225px;
+			cursor: pointer;
+			font-size: 20px;
+			border-radius: 10px;
+			width: 150px;
+			color: black;
+			background-color: blue;
+	}
+	#tryagain{
+			margin-left: 550px;
+			font-size: 20px;
+			cursor: pointer;
+			border-radius: 10px;
+			width: 130px;
+			color: red;
+			background-color: green;
+	}
+	#leave{
+			margin-left: 550px;
+			font-size: 20px;
+			cursor: pointer;
+			border-radius: 10px;
+			width: 120px;
+			color: blue;
+			background-color: red;
+	}
+	#left2{
+			font-size: 20px;
+			cursor: pointer;
+			border-radius: 10px;
+			width: 150px;
+			color: red;
+			background-color: black;
+			margin-left: 125px;
+	}
+	#right2{
+			font-size: 20px;
+			cursor: pointer;
+			border-radius: 10px;
+			width: 175px;
+			color: lightblue;
+			background-color: green;
+			margin-left: 625px;
+	}
+	#image1{
+			margin-left: 75px;
+	}
+	#image2{
+			margin-left: 500px;
+	}
+	#home{
+			font-size: 20px;
+			cursor: pointer;
+			border-radius: 10px;
+			width: 100px;
+			color: red;
+			background-color: black;
+			margin-left: 225px;
+	}
+	#goodbye{
+			font-size: 20px;
+			cursor: pointer;
+			border-radius: 10px;
+			width: 125px;
+			color: lightblue;
+			background-color: green;
+			margin-left: 125px;
+	}
+	#ending{
+			font-size: 20px;
+			cursor: pointer;
+			border-radius: 10px;
+			width: 100px;
+			color: lightblue;
+			background-color: green;
+			

@@ -1,0 +1,34 @@
+<html>
+
+<head>
+	<title>CYOA</title>
+	<link rel = "stylesheet" href = "TextAdventureStyle.css">
+	<script src = "advent.js"></script>
+</head>
+
+<body> 
+	<p class = "userIn">Please Enter Your Name</p>
+	<input type = "textfield" value = "Player Name" id = "PlayerName"></input>
+	<input type = "button" value = "ENTER" id = "acceptchallenge" onclick = "displayname()"></input>
+	
+<p id = "welcome">Welcome To The Game, <span id = "name"></span></p>
+
+	<p id = "text">
+	You are about to embark on a very exciting and dangerous mission.
+	</br>
+	</br>
+	Make sure that you want to go on this journey before you do so.
+	</br>
+	</br>
+	The maze you are about to enter has never had anyone complete it.
+	</br>
+	</br>
+	are you up to the challenge?
+	</p>
+	<input type = "button" value = "I ACCEPT" id = "yes" onclick = "window.location.href = 'page2.html' "></input>
+	</br>
+	</br>
+	<input type = "button" value = "I Don't Accept" id = "no" onclick = "window.location.href = 'https://www.google.com/?safe=active&ssui=on' "></input>
+	</body>
+
+</html>
