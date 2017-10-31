@@ -1,0 +1,20 @@
+body {
+	background-image: url("https://static1.squarespace.com/static/51e0ad2ee4b0eadeb542cbe5/51e83b32e4b0fa8b033d8522/51e83b40e4b072b82b79c814/1374174018997/game_over_title_widescreen_16X9.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 100%; 
+}
+.button {
+    background-color: grey;
+    border: solid blue;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	margin-top: 300px;
+}

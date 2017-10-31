@@ -1,0 +1,108 @@
+body {
+	background-image:url("https://freedomchurchphilly.org/wp-content/uploads/2014/04/wallpapers-website-black-paper-texture-hd-others-images-textures-hd-wallpaper.jpg");
+}
+	
+#ChallengeAccepted{
+	background-color: yellow;
+	font-family: courier;
+}
+					
+#title{
+	text-align: center;
+	color: white;
+	background-color: grey;
+	text-shadow: 1px 1px blue;
+	/* margin determines the location of the text */
+	border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 300px;
+    margin-left: 300px;
+    background-color: DodgerBlue;
+	font-size: 30;
+}
+
+.title2{
+	text-align: center;
+	color: white;
+	background-color: grey;
+	text-shadow: 1px 1px blue;
+	/* margin determines the location of the text */
+	border: 1px solid black;
+    margin-right: 300px;
+    margin-left: 300px;
+    background-color: DodgerBlue;
+	font-size: 25;
+}
+
+.body {
+	text-align: center;
+	font-size: 20;
+}
+#YouWinButton {
+    background-color: grey;
+    border: solid blue;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button {
+    background-color: grey;
+    border: solid blue;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	margin-top: 260px;
+}
+
+.RTM1 {
+    background-color: grey;
+    border: solid blue;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	/*margin-top: 220px;*/
+}
+.RTM2 {
+    background-color: grey;
+    border: solid blue;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#bot {
+	font-size: 32px;
+	margin-left: 400px;
+	margin-right: 400px;
+}
+#paragraph {
+	background-color: SpringGreen;
+    border: solid black;
+    /*color: black;*/
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+	margin-top: 20px;
+}

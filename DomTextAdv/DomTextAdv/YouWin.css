@@ -1,0 +1,20 @@
+body {
+	background-image: url("https://www.coderworkshop.com/wp-content/uploads/2013/04/YouWin.gif");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 100%; 
+}
+.button {
+    background-color: grey;
+    border: solid blue;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	margin-top: 300px;
+}

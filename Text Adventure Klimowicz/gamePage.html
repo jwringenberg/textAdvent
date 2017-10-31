@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title></title>
+
+		<link rel="stylesheet" type="text/css" href="game-style.css">
+		<link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+		<script src = "script.js"></script>
+
+	</head>
+
+	<body>
+		<button id="start-button" class = "centered" class="selectionButton" onclick="startgame()">
+			BEGIN
+		</button>
+
+		<div id = "container" class = "hidden" class = "animatedButton">
+			<div id = "name-container" class = "hidden" class = "page-div">
+				Please enter your name
+
+				</br>
+
+				<input id = "name-input" type = "text" placeholder = "">
+
+
+				<button id="name-button" class = "next-button" onclick="nextpage()">
+					next
+				</button>
+
+				<div id = "name-display" class = "hidden">
+					Welcome, <span id = "name-span"></span>
+				</div>
+			</div>
+
+			<div id = "page-one" class = "hidden" class = "page-div">
+				<span id = "name-span-two"></span>, you wake along a path 
+				stretching in both directions as far as you can see. 
+
+				</br>
+
+				Will you go left or right?
+
+				</br>
+
+				<button id = "page-one-button-left" class = "next-button" onclick="setLeft()">left</button>
+				<button id = "page-one-button-right" class = "next-button" onclick="setRight()">right</button>
+			</div>
+
+			<div id = "page-two" class = "hidden">
+				You near the top of the peak, would you rather stop to see the view,
+				or make your time back down the mountain?
+
+				<br>
+
+
+				<button id = "page-two-button-peak" class = "next-button" onclick="setPeak()">peak</button>
+				<button id = "page-two-button-down" class = "next-button" onclick="setDown()">down</button>
+			</div>
+
+			<div id = "page-three" class = "hidden">
+				As you travel farther down the hill, you come across a fissure in the ground.
+
+				<br>
+
+				Will you walk around to find the end of the fissure, or attempt to go across?
+
+				<button id = "page-three-button-jump" class = "next-button" onclick="setJump()">jump</button>
+				<button id = "page-three-button-walk" class = "next-button" onclick="setWalk()">walk</button>
+			</div>
+
+			<div id = "page-four" class = "hidden">
+				Further down the path, you come upon what seems like a small mountain town
+
+				<br>
+
+				Would you rather continue upon the higher path, or travel through the town?
+
+				<button id = "page-four-button-path" class = "next-button" onclick="setPath()">path</button>
+				<button id = "page-four-button-town" class = "next-button" onclick="setTown()">town</button>
+			</div>
+
+			<div id = "page-five" class = "hidden">
+				The sound of a body of water nearby catches your attention
+
+				<br>
+
+				Would you stop at the stream or continue over the possibly cold water
+
+				<br>
+
+				<button id = "page-five-button-stop" class = "next-button" onclick="setStop()">stop</button>
+				<button id = "page-five-button-walk" class = "next-button" onclick="setWalk2()">walk</button>
+			</div>
+
+			<div id = "page-six" class = "hidden">
+				As you reach the bottom mile of the path, you have the choice to follow a well defined path, or take a hard route through the woods
+
+				<br>
+
+				Will you create or improve?
+
+				<br>
+
+				<button id = "page-six-button-create" class = "next-button" onclick="setCreate()">create</button>
+				<button id = "page-six-button-improve" class = "next-button" onclick="setImprove()">improve</button>
+ 			</div>
+
+ 			<div id = "results-page" class = "hidden">
+ 				<span id = "results-span-one"> </span>
+ 				</br>
+ 				<span id = "results-span-two"> </span>
+ 				</br>
+ 				<span id = "results-span-three"> </span>
+ 				</br>
+ 				<span id = "results-span-four"> </span>
+ 				</br>
+ 				<span id = "results-span-five"> </span>
+ 				</br>
+ 				<span id = "results-span-six"> </span>
+ 			</div>
+	</body>
+</html>

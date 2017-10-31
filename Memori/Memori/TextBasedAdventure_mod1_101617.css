@@ -1,0 +1,74 @@
+body{
+	background-color: black;
+}
+
+	#title
+{
+				font-size: 50px;
+				font-family: monospace;
+				color: white;
+				text-align: center;
+}
+	#DungeonIntro
+{
+			font-size: 25px;
+			color: blue;
+			font-family: monospace;
+			text-align: center;
+	}
+	.userIn{
+			font-size: 20px;
+			color: white;
+			font-family: monospace;
+			text-align: center
+	}
+	
+	#friendlynpc{
+			font-size: 20px;
+			color: pink;
+			font-family:'Quicksand', sans-serif;
+			text-align: center;
+	}
+	
+	#standardenemy{
+			font-size: 17px;
+			color: yellow;
+			font-family: sans;
+			text-align: center;
+	}
+	
+	#death{
+			font-size: 55px;
+			color: red;
+			font-family:'Share', cursive;
+			text-align: center;
+	}
+	
+	#lowlevelboss {
+			font-size: 17px
+			color: green;
+			font-family: sans;
+	}
+	
+	#TryButton{
+			font-size: 15px;
+			color: black;
+			font-family: 'Amaranth', sans-serif;
+			text-align: center;
+	
+	
+	}
+	
+	.CenterButtons{
+		text-align: center;
+	}
+	
+	#thewhitedeer {
+		font-size: 20px;
+		color: white;
+		font-family: 'Quicksand', sans-serif;
+		text-align: center;
+	}
+			
+	
+	

@@ -1,0 +1,26 @@
+body {
+	text-align: center;
+	background-image: url("http://www.batleydiy.co.uk/ekmps/shops/296292/images/muriva-couture-floral-vinyl-wallpaper-stone-rose-gold-701410--please-select-sample-7921-p.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: center;
+}
+
+div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+#q1{
+	color: #373737;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 25px;
+}
+
+#q2{
+	color: #373737;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 25px;
+}

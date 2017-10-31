@@ -1,0 +1,26 @@
+<html>
+<head>
+<link href = "scamstyle.css" rel = "stylesheet"/>
+<script src = "advent.js"></script>
+</head>
+<body id = "color">
+<p align = "center" id = "apeg">
+Good Job you passed the Demo
+</p>
+
+<p align = "center" id = "apeg">
+Now you can replay or Feel happy
+</p>
+
+<form align = "center">
+    <input type = "button" value = "replay" onclick = "replay()">
+  </form>
+
+	
+	<form align = "center">
+	<input type="button" id="button_enter" value="replay" onclick= "window.location.href = 'Introduction'">
+	
+	</form>
+	<img src = "https://mostlymontessoriblog.files.wordpress.com/2015/11/good-job.jpg">
+</body>
+</html>

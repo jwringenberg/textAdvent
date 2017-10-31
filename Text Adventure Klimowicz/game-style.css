@@ -1,0 +1,197 @@
+html {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-image: url(http://gcsouthall.org.uk/wp-content/uploads/2014/11/Misty-Mountains.jpg);
+	background-size: cover;
+	display:inline-block;
+	text-align: left;
+	overflow:hidden;
+}
+
+.centered {
+	position:absolute;
+	top:50%;
+	left:50%;
+}
+
+.hidden {
+	display:none;
+}
+
+.next-button {
+	opacity: 0.0;
+	background-color:rgba(150,150,150,.3);
+	border: 5px solid;
+	border-color:#FFFFFF;
+	font-family: 'Space Mono', monospace;
+	font-size: 40px;
+	font-color:#FFFFFF;
+	font-weight:;
+	color:#FFFFFF;
+	padding:15px;
+	animation: textFadein forwards;
+	animation-duration: 1s;
+	animation-delay: 4s;
+}
+
+.fadeIn {
+	animation:textFadein forwards;
+	animation-delay: 4s;
+	animation-duration: 1s;
+}
+
+.fadeOut {
+	animation:textFadeout forwards;
+	animation-delay: 1s;
+	animation-duration: 1s;
+}
+
+.animatedButton {
+	transition:1s ease-in-out;
+	-webkit-transition:1s ease-in-out;
+	-moz-transition:1s ease-in-out;
+	-o-transition:1s ease-in-out;
+}
+
+.animatedButton:hover {
+	transform:translate(3em,0);
+	-webkit-transform:translate(3em,0);
+}
+
+@keyframes containerAnimate {
+	0% {
+		width:0%;
+		height:0%;
+		opacity:0.0;
+	}
+
+	30% {
+		opacity:1.0;
+	}
+
+	100% {
+		width:90%;
+		height:90%;
+		opacity: 1.0;
+	}
+}
+
+@keyframes textSlidein {
+	0% {margin-left:-800px;}
+	20% {margin-left:-800px;}
+	35% {margin-left:0px;}
+	100% {margin-left:0px;}
+}
+
+@keyframes textFadein {
+	from {opacity: 0.0;}
+	to {opacity:1.0;}
+}
+
+@keyframes textFadeout {
+	from {opacity:1.0;}
+	to {opacity:0.0;}
+}
+
+@keyframes buttonAnimate {
+	from {background-color: rgba(150,150,150,.3);}
+	to {background-color: rgba(150,150,150,.8)}
+}
+
+#start-button {
+	transform: translate(3em,0);
+	background-color:rgba(150,150,150,.3);
+	transform: translate(-50%,-50%);
+	border: 5px solid;
+	border-color:#FFFFFF;
+	font-family: 'Space Mono', monospace;
+	font-size: 40px;
+	font-color:#FFFFFF;
+	font-weight:;
+	color:#FFFFFF;
+	padding:15px;
+
+}
+
+#start-button:hover {
+	animation-name: buttonAnimate forwards;
+	animation-duration:2s;
+}
+
+#container {
+	background-color:rgba(150,150,150,.3);
+	border: 5px solid;
+	border-color:#FFFFFF;
+	transform: translate(-50%,-50%);
+	padding:15px;
+	width:0%;
+	height:0%;
+	animation: containerAnimate forwards;
+	animation-iteration-count: 1;
+	animation-duration: 2s;
+	animation-delay: 1s;
+	text-align: center;
+}
+
+#name-input {
+	margin:auto;
+	background-color: rgba(150,150,150,0.0);
+	width:80%;
+	height:80%;
+	border-bottom: 5px solid;
+	border-right: 0px;
+	border-left: 0px;
+	border-top:0px;
+	color:white;
+	border-color:white;
+	font-family: 'Space Mono', monospace;
+	font-color:white;
+	font-size:50px;
+	animation: textFadein forwards;
+	animation-duration: 1s;
+	animation-delay:4s;
+	text-align: center;
+}
+
+#name-container {
+	opacity:0.0;
+	margin:auto;
+	text-align: center;
+	font-family: 'Space Mono', monospace;
+	font-color:white;
+	color:white;
+	font-size:50px;
+}
+
+#name-display {
+	opacity:0.0;
+	animation: textFadein forwards;
+	animation-duration: 2s;
+}
+
+#results-page {
+	font-family: 'Space Mono', monospace;
+	font-size: 25px;
+	opacity:0.0;
+	animation:textFadein forwards;
+	animation-duration: 1s;
+	animation-delay: 1s;
+	margin:auto;
+	color:white;
+	text-align: center;
+}
+
+.page-div {
+	opacity:0.0;
+	animation:textFadein forwards;
+	animation-duration: 1s;
+	animation-delay: 1s;
+	margin:auto;
+	font-family: 'Space Mono', monospace;
+	font-size:50px;
+	color:white;
+	text-align: center;
+}

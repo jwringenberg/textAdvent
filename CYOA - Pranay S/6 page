@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>fight</title>
+<link href = "scamstyle.css" rel = "stylesheet"/>
+<script src = "advent.js"></script>
+</head>
+<body id = "color">
+<p align = "center" id = "apeg">
+You tried fighting but you got double teamed and died.
+</p>
+
+<p align = "center" id = "apeg">
+Now you can replay.
+</p>
+
+<form align = "center">
+    <input type = "button" value = "replay" onclick = "window.location.href ='introduction'">
+  </form>
+  
+
+</body>
+</html>
