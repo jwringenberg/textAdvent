@@ -1,0 +1,26 @@
+body {
+	text-align: center;
+	background-image: url("https://www.allenbraithwaite.co.uk/images/product/muriva_701413_Amelia_Floral_Gold_wallpaper.jpg"); 
+	background-repeat: no-repeat; 
+	background-position: center;
+	background-size: cover;
+	}
+
+
+#intro {
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+#title {
+	font-size: 45px;
+	color: #373737;
+	font-family: 'Nothing You Could Do', cursive;
+}
+
+#info {
+	color: #373737;
+	font-family: sans-serif;
+}
