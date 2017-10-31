@@ -1,0 +1,28 @@
+<html>
+
+<head>
+	
+	<title id = "lol">Begin</title>
+	<link rel = "stylesheet" href = "StyleForGame.css">
+	<script src = "advent.js"></script>
+
+</head>
+
+<body class = "body">
+	<p> Opening </p>
+	<!--	(This is a comment) 	<img src = "smile.jpg">		-->
+	<p ="bot">
+	<span id = "BeforeName">What is Your Name?</span><span id ="text"></span><span></span>
+	</p>
+	<div>
+		<input id = "tod"></input>
+	</div>
+	<input type = "textfield" id = "namefield"></input>
+	<input type = "button" value = "Continue" onclick = "doStuff()"></input>
+	<p>
+	<input id = "RTM1" type = "button"  value = "Return To Main Page" onclick = "window.location.href = 'TextAdventHome.html' ">	</input>
+	<!--<input class = "button" type = "button"  value = "GameOver" 			onclick = "window.location.href = 'GameOver.html' ">		</input>
+	<input class = "button" type = "button"  value = "YouWin" 				onclick = "window.location.href = 'YouWin.html' ">			</input>-->
+</body>
+
+</html>
