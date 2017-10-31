@@ -1,0 +1,30 @@
+
+#challengeAccepted{
+						background-color: red;
+}
+
+#title{ 
+
+		text-align: center;
+		font-size: 30px;
+		color: red;
+}
+
+
+#accepted{
+			text-align: center;
+			padding-top: 5px;
+}
+
+#declined{ 
+			text-align: center;
+			padding-top: 5px;
+}
+
+body{ 
+              background-image: url("firehouse.jpg"); 
+			background-repeat: repeat;
+			background-size: 50px;
+			background-size: cover;
+}
+			

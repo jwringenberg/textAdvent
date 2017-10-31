@@ -1,0 +1,53 @@
+
+#title{ 
+		padding-top: 10px;
+		text-align: center;
+		font-size: 30px;
+		color: rgb(112,128,144);
+}
+
+
+#accepted{
+			text-align: center;
+			padding-top: 5px;
+}
+
+#declined{ 
+			text-align: center;
+			padding-top: 5px;
+}
+
+body{ 
+              background-image: url("creepy.jpg"); 
+			background-size: cover;
+			background-position: center;
+}
+
+playerName{ color: rgb(112,128,144)
+}
+			
+#rope{ 
+		background-image: url("https://www.roguefitness.com/media/catalog/product/cache/1/image/1500x1500/472321edac810f9b2465a359d8cdc0b5/c/l/climbing-rope-2sm.jpg")
+}
+
+#title2{ font-size: 30px;
+		 color: white;
+		 text-align: center;
+}
+
+#black{ background-image: url("https://images.rapgenius.com/92abc49a4468f440d86e3c66541f0a2b.1000x991x1.jpg")
+	}
+	
+#basement{ background-image: url("https://c1.staticflickr.com/8/7709/16639493183_557d92f980_b.jpg")
+}
+
+.userIn{
+	color: white;
+}
+
+#dead{ background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/85/Dead.png")
+}
+
+#title3{ 
+			color: red;
+}
