@@ -1,0 +1,38 @@
+[
+  {
+    "Name":"Brett's Adventure"
+    "homePageLocation":"BrettTextAdventure/BrettTextAdventure/MemeAdventure.html"
+  },
+  {
+    "Name":"Pranay's Adventure"
+    "homePageLocation":"Pranay/Introduction.html"
+  },
+  {
+    "Name":"Dom's Adventure"
+    "homePageLocation":"DomTextAdv/TextAdventHome.html"
+  },
+  {
+    "Name":"Sapphire's Adventure"
+    "homePageLocation":"Memori/Memori_Title-Page.html"
+  },
+  {
+    "Name":"Neerav's Adventure"
+    "homePageLocation":"Neerav/Introduction.html"
+  },
+  {
+    "Name":"Anjali's Adventure"
+    "homePageLocation":"Anjali/text adventure- anjali/ta1.html"
+  },
+  {
+    "Name":"Zach's Adventure"
+    "homePageLocation":"Klimowicz/gamePage.html"
+  },
+  {
+    "Name":"Thomas's Adventure"
+    "homePageLocation":"Thomas/TextAdventHome.html"
+  },
+  {
+    "Name":"Yethia's Adventure"
+    "homePageLocation":"YethiaTextAdvet/TextAdventHome.html"
+  }
+]
