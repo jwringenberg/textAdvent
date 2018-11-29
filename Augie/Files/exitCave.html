@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title>DAYLIGHT!</title>
+  <link rel="stylesheet" href="masterSty.css">
+  <style>
+    body{
+      background: url(kingdom.png) no-repeat center center fixed;
+      background-color: rgb(25, 25, 25);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  </style>
+  <script>
+    function enterCity()
+    {
+      window.location.href = "goblinKing.html";
+    }
+    function returnFromCave()
+    {
+      window.location.href = "returnFromCave.html";
+    }
+  </script>
+</head>
+<body>
+  <div id = textBox>
+    You exit the cave and stumble upon a large, wondrous kingdom!
+  </div>
+  <br>
+  <div id = optionBox>
+    Do you enter the city, or quit adventuring now and head home?
+    <br>
+    <input type = button id = buttonFormat value = "Enter" onclick = "enterCity()">
+    <input type = button id = buttonFormat value = "Return" onclick = "returnFromCave()">
+  </div>
+  <div id = dinoDiv>
+    <img src = Dinosaur.png width = 250px height = 250px>
+  </div>
+</body>
+</html>

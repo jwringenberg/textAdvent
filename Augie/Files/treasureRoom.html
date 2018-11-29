@@ -1,0 +1,49 @@
+<html>
+<head>
+  <title>A Treasure Room!</title>
+  <link rel="stylesheet" href="masterSty.css">
+  <link rel="stylesheet" href="treasureRoomSty.css">
+  <script src = "masterScript.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+    function take()
+    {
+      if(Math.random() > .8)
+      {
+        //Receive a sword
+        window.location.href = "receiveSword.html";
+      }
+      else
+      {
+        //Die
+        window.location.href = "treasureDie.html";
+      }
+    }
+    function leave()
+    {
+      window.location.href = "exitCave.html";
+    }
+  </script>
+  <script src = "masterScript.js"></script>
+</head>
+<body>
+  <div id = textBox>
+    You have defeated the goblins
+    <span id = nameSpan></span>
+    ! You now find yourself inside of a room full of TREASURE
+  </div>
+  <br>
+  <div id = optionBox>
+    Do you risk taking the CURSED TREASURE? Or do you Leave?
+    <input type = button id = buttonFormat value = "Take Treasure" onclick = take()>
+    <input type = button id = buttonFormat value = "Leave" onclick = leave()>
+    <br>
+    If you take the treasure, there is an 80% chance of death
+  </div>
+  <div id = dinoDiv>
+    <img src = Dinosaur.png width = 250px height = 250px>
+  </div>
+  <body onload = dispName()>
+  <body onload = removeSword()>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>Close!</title>
+  <link rel="stylesheet" href="masterSty.css">
+  <style>
+    body{
+      background: url(light.jfif) no-repeat center center fixed;
+      background-color: rgb(25, 25, 25);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+  <script>
+    function continueStory()
+    {
+      window.location.href = "End.html";
+    }
+  </script>
+</head>
+<body>
+  <div id = textBox>
+    After a Hard-Fought battle, you have Narrowly defeated the Goblin King.
+  </div>
+  <br>
+  <div id = optionBox>
+    <input type = button id = buttonFormat value = "What's Next?" onclick = "continueStory()">
+  </div>
+  <div id = dinoDiv>
+    <img src = Dinosaur.png width = 250px height = 250px>
+  </div>
+</body>
+</html>

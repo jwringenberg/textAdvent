@@ -1,0 +1,7 @@
+body{
+  background: url(treasure.jpg) no-repeat center center fixed;
+  background-color: rgb(25, 25, 25);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

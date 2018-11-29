@@ -1,0 +1,40 @@
+
+<html>
+  <head>
+    <title>Goblins!</title>
+    <link rel="stylesheet" href="masterSty.css">
+    <script>
+      function fightGobs()
+      {
+        if(Math.random() < .2)
+        {
+          window.location.href = "goblinDead.html";
+        }
+        else
+        {
+          window.location.href = "treasureRoom.html";
+        }
+      }
+    </script>
+    <style>
+    body{
+      background: url(goblinHorde.png) no-repeat center center fixed;
+      background-color: rgb(25, 25, 25);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    </style>
+  </head>
+  <body>
+    <div id = textBox>
+      Suddenly, You've Encountered a Horde of 3 Goblins!
+    </div>
+    <br>
+    <div id = optionBox>
+      <input type = button id = buttonFormat value = "Fight Goblins" onclick = "fightGobs()">
+    </div>
+    <div id = dinoDiv>
+      <img src = Dinosaur.png width = 250px height = 250px>
+    </div>
+  </body>
+</html>

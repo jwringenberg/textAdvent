@@ -1,0 +1,12 @@
+body{
+  background-color: rgb(175, 175, 175);
+}
+
+#customDinoDiv{
+  align-content: center;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  box-shadow: 0 0 10px 5px black;
+}

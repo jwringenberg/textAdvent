@@ -1,0 +1,63 @@
+<html>
+<head>
+  <title>A King!</title>
+  <link rel="stylesheet" href="masterSty.css">
+  <script src = masterScript.js></script>
+  <style>
+  body{
+    background: url(goblinKing.png) no-repeat center center fixed;
+    background-color: rgb(25, 25, 25);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  </style>
+  <script>
+    var count = 0;
+
+    function loseHealth()
+    {
+      alert("You Lost ")
+    }
+
+    function startFight()
+    {
+      if(localStorage.getItem("dinoGameSword") == 1)
+      {
+        window.location.href = "instantDefeat.html";
+      }
+      else
+      {
+        if(Math.random() < .5)
+        {
+          count++;
+          alert("You took a hit! Your remaining health is: " + (100 - 25*count) + " Keep Fighting!");
+          if(count == 4)
+          {
+            window.location.href = "killedByKing.html";
+          }
+        }
+        else
+        {
+          window.location.href = "closeWin.html";
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id = textBox>
+    You eventually reach the throne room and find a goblin king! He is not happy that you killed his goblin friends.
+  </div>
+  <br>
+  <div id = optionBox>
+    When you fight, there is a 50% chance you lose health.
+    <br>
+    <input type = button id = buttonFormat value = "Fight" onclick = startFight()>
+    <br>
+    If you have a sword, you will always win.
+  </div>
+  <div id = dinoDiv>
+    <img src = Dinosaur.png height = 250px width = 250px>
+  </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title>Shiny!</title>
+  <link rel="stylesheet" href="masterSty.css">
+  <script src = "masterScript.js"></script>
+  <script>
+  function nextPage()
+  {
+    window.location.href = "exitCave.html";
+  }
+  </script>
+  <style>
+  body{
+    background: url(sword.jpg) no-repeat center center fixed;
+    background-color: rgb(25, 25, 25);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  </style>
+</head>
+<body>
+  <div id = textBox>
+    You took the risk and it was worth it! You have now received a MAGICAL SWORD!
+  </div>
+  <br>
+  <div id = optionBox>
+    <input type = button id = buttonFormat value = "Continue" onclick = nextPage()>
+  </div>
+  <div id = dinoDiv><img src = Dinosaur.png width = 250px height = 250px></div>
+  <body onload = getSword()>
+</body>
+</html>
