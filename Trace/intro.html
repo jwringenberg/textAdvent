@@ -1,0 +1,30 @@
+<html>
+<head>
+<title> MEDIEVAL TEXT ADVENTURE </title>
+<script src="introJAVA.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="introcSS.css">
+</head>
+<body>
+<p> Gladiator ADVENTURE </p>
+<br>
+<br>
+<p id = "family"> </p>
+<div>
+  <input type = "text" value = "name" id = "userinput">
+  <input type = "button" value = "Enter your name"  onclick = "printname()">
+<br>
+<p id = "beanboy"> Welcome,  <span id = 'table'>  </span> . Prepare yourself for the challenges to come.</p>
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <p id = "intro"> You enter the arena barracks and you see a sword and a staff,
+  Will you choose blade or magic as your fighting style?  </p>
+<input type = "button" value = "Give me the sword" onclick = "next()">
+<input type = "button" value = "I will cast my way to victory" onclick = "nope()">
+</body>
+</html>
