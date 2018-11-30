@@ -1,0 +1,30 @@
+body{
+  background-color:rgb(190, 230, 190);
+}
+h1{
+font-family: 'Courgette', cursive;
+color: rgb(200, 170, 0);
+text-align: center;
+}
+p{
+font-family: 'Merienda', cursive;
+color: rgb(153, 0, 51);
+font-size: 25px;
+text-align: center;
+}
+#start{
+  font-family: 'Sriracha', cursive;
+  color: rgb(0, 0, 102);
+}
+div{
+  font-family: 'Sriracha', cursive;
+  color: rgb(0, 0, 102);
+  text-align: center;
+}
+#poem1{
+  font-style: italic;
+}
+img{
+  height: 300px;
+  width: 300px;
+}
