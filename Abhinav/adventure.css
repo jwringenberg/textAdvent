@@ -1,0 +1,44 @@
+#TitleScreen
+{
+   font-family: 'Changa', sans-serif;
+   font-size: 60px;
+   text-align: center;
+   background-color:Black;
+   color:White;
+}
+#LeftTitle
+{
+  font-family: 'Changa', sans-serif;
+  font-size: 20;
+  text-align: left;
+  color:White;
+}
+#HomePage
+{
+  font-family: 'Changa', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  color:White;
+  Background-color: Black;
+}
+#HomePage2
+{
+  font-family: 'Changa', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  color:White;
+  Background-color: Black;
+}
+#Name
+{
+  font-family: 'Changa', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  color:White;
+  Background-color: Black;
+}
+
+body
+{
+  background-image: url("Home-Background.jpg");
+}
