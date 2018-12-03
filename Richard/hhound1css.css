@@ -1,0 +1,11 @@
+body{
+  background-image: url("olympia.png");
+}
+
+p{
+  font-size: 30px;
+  font-family: cursive;
+  color: white;
+  background-color: black;
+  padding: 0;
+  padding-left: 10px;
