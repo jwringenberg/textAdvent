@@ -1,0 +1,18 @@
+#pageHeader{
+  font-size: 70px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  text-decoration: underline;
+  font-family: 'Eagle Lake', cursive;
+}
+body{
+  text-align: center;
+  background-image: url(parchment.jpg);
+  font-family: 'Eagle Lake', cursive;
+}
+p{
+  font-family: 'Eagle Lake', cursive;
+}
+a{
+  color: black;
+}
